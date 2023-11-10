@@ -94,6 +94,11 @@ nav{
     height: 1.6rem;
 }
 
+.transform-image, .stand-out-image{
+    width: 100%;
+    height: 100%;
+}
+
 .learn-more-btn{
     font-family: 'Fraunces', serif;
     color: #24303E;
@@ -101,23 +106,32 @@ nav{
     letter-spacing: 1px;
     background: none;
     border: none;
-    /* margin-bottom: -5px; */
+    cursor: pointer;
+    z-index: 2;
+   
 }
 
 
 .rectangle{
-    width: 8.5rem;
+    width: 8rem;
     height: 0.8rem;
     border-radius: 25px;
+    margin-top: -8px;
 }
 .btn-yellow{
-    background-color: #FAD400;
+    background: hsl(51, 100%, 49%, 0.5);
+    cursor: pointer;
 }
 .btn-pink{
+    background: hsl(7, 99%, 70%, 0.5);
+    cursor: pointer;
+}
+.btn-pink:hover{
     background: #FE7766;
 }
-
-
+.btn-yellow:hover{
+    background: #FAD400;
+}
 
 .learn-more-h2{
     font-family: 'Fraunces', serif;
@@ -127,7 +141,24 @@ nav{
 }
 .learn-more-msg{
     color: #808397;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: -0.129px;
 }
+
+
+/* design-photography */
+
+.design-photography{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+/* .design{
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
 
