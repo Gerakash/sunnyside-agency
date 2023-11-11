@@ -137,12 +137,11 @@ nav{
     font-family: 'Fraunces', serif;
     color: #24303E;
     font-size: 2.5rem;
-    letter-spacing: -0.286px;
 }
 .learn-more-msg{
     color: #808397;
     font-size: 1.1rem;
-    letter-spacing: -0.129px;
+    line-height: 30px;
 }
 
 
@@ -151,14 +150,54 @@ nav{
 .design-photography{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    height: 80vh;    
 }
-/* .design{
+.design{
     background-image: url('images/desktop/image-graphic-design.jpg');
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-} */
+}
+.photography{
+    background-image: url('images/desktop/image-photography.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.design,.photography{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 5rem;
+}
+
+.design-photography-h3{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    padding-bottom: 1.8rem;
+}
+.gd-color{
+    color: #24554A; 
+}
+.design-msg{
+    font-size: 1rem;
+    color: #3E7467;
+    text-align: center;
+    line-height: 27px;
+    width: 21rem;
+}
+.ph-color{
+    color: #052C3B;
+}
+
+.photography-msg{
+    font-size: 1rem;
+    color: #19536C;
+    text-align: center;
+    line-height: 27px;
+    width: 21rem;
+}
