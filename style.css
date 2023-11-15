@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
 
 .hero{
     background-image: url('images/desktop/image-header.jpg');
@@ -26,10 +33,9 @@ nav{
     flex-shrink: 0;
 
 }
-.nav-ul{
+.nav-ul, .footer-ul{
     display: flex;
     align-items: center;
-    list-style: none;
     gap: 3rem;
     font-size: 1.2rem;
     line-height: 25px;
@@ -237,8 +243,8 @@ nav{
 
 .testimonials-img{
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 7rem;
+    height: 7rem;
     margin-bottom: 2.8rem;
 }
 
@@ -263,3 +269,46 @@ nav{
     font-size: 0.9rem;
     line-height: 25px;
 }
+
+/* pictures */
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #90D4C6;
+    padding: 5rem 0rem;
+
+}
+
+.footer-logo{
+    width: 11rem;
+    height: 3rem;
+}
+
+.footer-ul{
+    padding: 2.5rem 0rem 5rem 0rem;
+}
+.footer-a{
+    color: #458D7E;
+
+}
+.footer-media{
+    display: flex;
+    gap: 2rem;
+}
+
