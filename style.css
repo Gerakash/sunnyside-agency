@@ -83,7 +83,6 @@ nav{
 .learn-more{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
 }
 .transform, .stand-out{
     display: flex;
@@ -312,3 +311,14 @@ nav{
     gap: 2rem;
 }
 
+/* responsive */
+
+@media (max-width: 1190px) {
+    .testimonials-p{
+        width: 20rem;
+        font-size: 1rem;
+        line-height: 30px;
+        padding-bottom:3rem;
+    }
+    
+}
